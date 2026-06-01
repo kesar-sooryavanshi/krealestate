@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE | Premium Real Estate & Modern Living</title>
+    <meta name="description" content="Experience corporate luxury and modern living with LUXE. Exclusive properties, professional consultation, and seamless booking.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container nav-content">
+            <a href="#" class="brand">LUXE<span>ESTATE</span></a>
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#properties">Properties</a>
+                <a href="#about">About</a>
+                <a href="#booking">Book Visit</a>
+                <a href="#mortgage">Mortgage</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="#booking" class="btn btn-gold d-none-mobile">Reserve Now</a>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav">
+        <a href="#hero">Home</a>
+        <a href="#properties">Properties</a>
+        <a href="#about">About</a>
+        <a href="#booking">Book Visit</a>
+        <a href="#mortgage">Mortgage</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="overlay"></div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-content fade-in">
+            <span class="section-subtitle">Excellence in Every Detail</span>
+            <h1>Discover Your Ultimate Sanctuary</h1>
+            <p>Experience the pinnacle of corporate luxury and cinematic living in our curated collection of premium properties.</p>
+            <div class="hero-btns">
+                <a href="#properties" class="btn btn-gold">View Collection</a>
+                <a href="#about" class="btn btn-outline" style="margin-left: 15px;">Our Legacy</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <div class="container">
+        <div class="search-container fade-in">
+            <div class="search-grid">
+                <div class="search-field">
+                    <label>Location</label>
+                    <input type="text" placeholder="Where would you like to live?">
+                </div>
+                <div class="search-field">
+                    <label>Property Type</label>
+                    <select>
+                        <option>Luxury Villa</option>
+                        <option>Penthouse</option>
+                        <option>Modern Mansion</option>
+                        <option>Executive Office</option>
+                    </select>
+                </div>
+                <div class="search-field">
+                    <label>Price Range</label>
+                    <select>
+                        <option>$1M - $5M</option>
+                        <option>$5M - $10M</option>
+                        <option>$10M+</option>
+                    </select>
+                </div>
+                <button class="btn btn-gold">Find Property</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Properties -->
+    <section id="properties">
+        <div class="container">
+            <span class="section-subtitle">Our Selection</span>
+            <h2 class="section-title">Featured Listings</h2>
+            
+            <div class="property-grid">
+                <!-- Property 1 -->
+                <div class="property-card fade-in">
+                    <div class="property-img" style="background-image: url('listing1.png');">
+                        <span class="property-badge">For Sale</span>
+                    </div>
+                    <div class="property-info">
+                        <div class="property-price">$4,250,000</div>
+                        <h3 class="property-title">Skyline Penthouse</h3>
+                        <p class="property-address"><i class="fas fa-map-marker-alt"></i> 5th Avenue, New York City</p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 4 Beds</span>
+                            <span><i class="fas fa-bath"></i> 3 Baths</span>
+                            <span><i class="fas fa-expand"></i> 3,500 sqft</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 2 -->
+                <div class="property-card fade-in">
+                    <div class="property-img" style="background-image: url('listing2.png');">
+                        <span class="property-badge">Exclusive</span>
+                    </div>
+                    <div class="property-info">
+                        <div class="property-price">$8,900,000</div>
+                        <h3 class="property-title">The Obsidian Villa</h3>
+                        <p class="property-address"><i class="fas fa-map-marker-alt"></i> Beverly Hills, California</p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 6 Beds</span>
+                            <span><i class="fas fa-bath"></i> 7 Baths</span>
+                            <span><i class="fas fa-expand"></i> 8,200 sqft</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 3 -->
+                <div class="property-card fade-in">
+                    <div class="property-img" style="background-image: url('hero.png');">
+                        <span class="property-badge">New Listing</span>
+                    </div>
+                    <div class="property-info">
+                        <div class="property-price">$12,500,000</div>
+                        <h3 class="property-title">Glass Horizon Manor</h3>
+                        <p class="property-address"><i class="fas fa-map-marker-alt"></i> Malibu Coast, California</p>
+                        <div class="property-features">
+                            <span><i class="fas fa-bed"></i> 5 Beds</span>
+                            <span><i class="fas fa-bath"></i> 6 Baths</span>
+                            <span><i class="fas fa-expand"></i> 6,800 sqft</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section style="background-color: var(--bg-charcoal);">
+        <div class="container">
+            <span class="section-subtitle">Excellence</span>
+            <h2 class="section-title">Why LUXE Estate?</h2>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <i class="fas fa-shield-alt feature-icon"></i>
+                    <h3>Secure Investment</h3>
+                    <p>Transparent dealings and legal protection for every transaction.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <i class="fas fa-award feature-icon"></i>
+                    <h3>Premium Service</h3>
+                    <p>White-glove concierge service from search to closing.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <i class="fas fa-chart-line feature-icon"></i>
+                    <h3>Market Insights</h3>
+                    <p>Data-driven advice for high-yield real estate investments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Booking -->
+    <section id="booking" class="booking-section">
+        <div class="container">
+            <div class="booking-container">
+                <div class="booking-text fade-in">
+                    <span class="section-subtitle">Experience Luxury</span>
+                    <h2 class="section-title" style="text-align: left;">Schedule a Private Tour</h2>
+                    <p style="margin-bottom: 30px; color: var(--text-muted);">Immerse yourself in the architecture and design of our exclusive properties. Book a dedicated time slot for a personalized walkthrough with our property experts.</p>
+                    <ul style="list-style: none; color: var(--text-muted);">
+                        <li style="margin-bottom: 15px;"><i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 10px;"></i> Professional property consultants</li>
+                        <li style="margin-bottom: 15px;"><i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 10px;"></i> Comprehensive design documentation</li>
+                        <li style="margin-bottom: 15px;"><i class="fas fa-check-circle" style="color: var(--accent-gold); margin-right: 10px;"></i> Private financial consultation</li>
+                    </ul>
+                </div>
+                <div class="booking-form fade-in">
+                    <form id="visitForm">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Property Interest</label>
+                            <select required>
+                                <option>Skyline Penthouse</option>
+                                <option>The Obsidian Villa</option>
+                                <option>Glass Horizon Manor</option>
+                            </select>
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div class="form-group">
+                                <label>Date</label>
+                                <input type="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Time Slot</label>
+                                <select required>
+                                    <option>10:00 AM</option>
+                                    <option>02:00 PM</option>
+                                    <option>04:00 PM</option>
+                                    <option>06:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-gold" style="width: 100%;">Confirm Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mortgage Section -->
+    <section id="mortgage">
+        <div class="container">
+            <span class="section-subtitle">Financial Planning</span>
+            <h2 class="section-title">Mortgage & Loan Calculator</h2>
+            <div class="mortgage-calculator fade-in">
+                <div class="calc-grid">
+                    <div class="calc-inputs">
+                        <div class="form-group">
+                            <label>Property Price ($)</label>
+                            <input type="number" id="propPrice" value="5000000">
+                        </div>
+                        <div class="form-group">
+                            <label>Down Payment (%)</label>
+                            <input type="number" id="downPayment" value="20">
+                        </div>
+                        <div class="form-group">
+                            <label>Interest Rate (%)</label>
+                            <input type="number" id="intRate" value="4.5">
+                        </div>
+                        <div class="form-group">
+                            <label>Loan Tenure (Years)</label>
+                            <input type="number" id="tenure" value="30">
+                        </div>
+                    </div>
+                    <div class="calc-result">
+                        <p style="color: var(--text-muted); margin-bottom: 10px;">Estimated Monthly EMI</p>
+                        <div class="emi-amount" id="emiDisplay">$0</div>
+                        <p style="margin-top: 20px; font-size: 14px; color: var(--text-muted);">*Indicative value. Subject to bank approval.</p>
+                        <a href="#" class="btn btn-outline" style="margin-top: 30px;">Get Financial Assistance</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="brand">LUXE<span>ESTATE</span></a>
+                    <p style="color: var(--text-muted); margin-top: 20px;">Redefining corporate luxury in the real estate industry. Excellence, trust, and premium modern living.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#properties">Properties</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#mortgage">Mortgage Help</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Our Agents</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 15px;">Stay updated with our latest luxury listings.</p>
+                    <div style="display: flex; gap: 10px;">
+                        <input type="email" placeholder="Email Address" style="padding: 10px; background: #222; border: 1px solid #333; color: white; width: 100%;">
+                        <button class="btn btn-gold" style="padding: 10px 20px;">Join</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 LUXE Estate. All rights reserved. Designed for Excellence.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
